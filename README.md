@@ -2,11 +2,11 @@
 
 ---
 
-** 功能 **
+**功能**
 
 利用perl，batch，markdown，pandoc等工具实现将Python源代码自动编写为实验报告，生成Word文档
 
-** 方法 **
+**方法**
 
 1. 将写好的Python源代码提前放入in文件夹中
 2. 双击run.bat
