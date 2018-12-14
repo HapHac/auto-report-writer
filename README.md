@@ -9,7 +9,7 @@
 **准备**
 
 * 对Windows用户，需要安装pandoc转换工具，Perl解释器安装可选，使用Perl可以方便的添加更多文本处理功能
-* 对\*nix用户，需要安装pandoc转换工具,需要将batch文件转化为相应的shell脚本
+* 对\*nix用户，需要安装pandoc转换工具，需要将batch文件转化为相应的shell脚本
 
 
 **方法**
