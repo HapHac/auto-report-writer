@@ -1,6 +1,6 @@
 @echo off
-perl -e "print (\"\n\");"
-if  not errorlevel 0 (goto do-in-perl) else (goto do-in-batch)
+perl -e "print (\"\");"
+if not errorlevel 1 (goto do-in-perl) else (goto do-in-batch)
 :do-in-perl 
 	perl -e "print (\"\n\*\*%1代码如下：\*\*\n\n\");">>./out/out.md
 	perl -w trs2rep.pl ./in/%1>> ./out/out.md
