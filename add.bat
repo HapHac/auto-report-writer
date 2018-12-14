@@ -9,3 +9,4 @@ python ./in/%1
 perl -e "print (\"![](./out/%1.JPG)\");">>./out/out.md
 perl -e "print (\"\n\");">>./out/out.md
 pause
+pandoc  ./out/out.md -o ./out.docx
