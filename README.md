@@ -8,7 +8,7 @@
 
 **准备**
 
-* 对Windows用户，需要安装Perl解释器，pandoc转换工具
+* 对Windows用户，需要pandoc转换工具，Perl解释器可选择安装
 * 对\*nix用户，需要将batch文件转化为shell脚本
 
 
