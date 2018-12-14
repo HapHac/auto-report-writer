@@ -6,5 +6,3 @@
 for %%i IN (./in/*.py) DO (
 	cd .>./out/%%i.JPG
 	add.bat %%i)
-pandoc  ./out/out.md -o ./out.docx
-pause
