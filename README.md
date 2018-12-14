@@ -6,6 +6,11 @@
 
 利用perl，batch，markdown，pandoc等工具实现将Python源代码自动编写为实验报告，生成Word文档
 
+**准备**
+
+* 对Windows用户，需要安装Perl解释器，pandoc转换工具
+* 对\*nix用户，需要将batch文件转化为shell脚本
+
 
 **方法**
 
